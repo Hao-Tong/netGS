@@ -81,7 +81,7 @@ Noted that the phenotypic data used in netGS within environment is normalized, a
 
 ## 4. Instructions
 
-4.1 netGS
+### 4.1 netGS
 
 All codes and data are under the folder named ‘netGS’. 
 Because the codes were written both in Matlab and R, four separate files are presented followed the steps in netGS. Please change the path name in the first section of the code to the path on your computer. 
@@ -150,7 +150,7 @@ The output including: the correlation coefficient for each replicate and each fo
 
 The code could take few seconds for the example on a normal desktop computer. 
 
-4.2 netGS across environments
+### 4.2 netGS across environments
 
 All codes and data are under the folder named ‘netGS_env’. 
 Please change the path name in the first section of the code to the path on your computer. If you want to use a new folder, please make sure the results of rrBLUP in previous section (fluxpredict_*.csv and fluxprediction_cor.csv) are copied here or indicate the path to access these results. 
@@ -179,7 +179,7 @@ The output including: the correlation coefficient for each replicate and each fo
 
 The code could take few seconds for the example on a normal desktop computer. 
 
-4.3 netGS robustness
+### 4.3 netGS robustness
 
 All codes and data are under the folder named ‘netGS_robust’. 
 Please change the path name in the first section of the code to the path on your computer. 
@@ -192,7 +192,7 @@ The output including: the reference flux distribution both in .mat format (fluxc
 
 The code could take few minutes for the example on a normal desktop computer. 
 
-4.4 For your data 
+### 4.4 For your data 
 These code can be simply used for any other dataset with the same format of the initial files showed above. You could modified the number of genotypes, number of fluxes in your model and the number of cross-validation replications. 
 
 ## 5. Reference
