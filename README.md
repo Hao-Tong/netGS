@@ -1,18 +1,20 @@
 # netGS (network-based genomic selection)
 
-##1. System Requirements
+## 1. System Requirements
 
 1.1 Hardware requirements
 All codes require only a standard computer with enough RAM to support the in-memory operations.
 
 1.2 Software requirements
+
 1.2.1 Operation System (OS) Requirements
 All codes can be run under Linux or Windows OS. The code here has been tested on Ubuntu 14.04 LTS. 
 
 1.2.2 Programming software
 R language and Matlab are needed to run all codes. The code here has been tested on R (version 3.4.4) and Matlab (version 8.5 (R2015a)). 
 
-2. Installation Guide
+## 2. Installation Guide
+
 All installation guide present below is only for Linux OS. For Windows OS, it might be slightly different. 
 
 2.1 R language
@@ -51,7 +53,7 @@ To install the solver cvx in Matlab, similarly, download the package and unzip i
 
 cvx_setup
 
-3. Example
+## 3. Example
 
 netGS needs the following initial data (the corresponding file name in brackets): 
 
@@ -77,9 +79,7 @@ The example showed here is an Arabidopsis genome-scale metabolic model with 407 
 
 Noted that the phenotypic data used in netGS within environment is normalized, and not normalized when prediction cross environments in the example data. 
 
-
-
-4. Instructions
+## 4. Instructions
 
 4.1 netGS
 
@@ -195,8 +195,9 @@ The code could take few minutes for the example on a normal desktop computer.
 4.4 For your data 
 These code can be simply used for any other dataset with the same format of the initial files showed above. You could modified the number of genotypes, number of fluxes in your model and the number of cross-validation replications. 
 
-5. Reference
+## 5. Reference
 
 Tong, H., Küken, A. & Nikoloski, Z. Integrating molecular markers into metabolic models improves genomic selection for growth. (Under review)
+
 Please see the Methods section in this paper for the model details in mathematical equations. 
 Any further questions: tong@mpimp-golm.mpg.de
