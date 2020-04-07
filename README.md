@@ -1,8 +1,6 @@
-# NetGS
+# netGS (network-based genomic selection)
 
-The readme file of the source code of netGS (network-based genomic selection)
-
-1. System Requirements
+##1. System Requirements
 
 1.1 Hardware requirements
 All codes require only a standard computer with enough RAM to support the in-memory operations.
