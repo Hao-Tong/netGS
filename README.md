@@ -197,7 +197,7 @@ These code can be simply used for any other dataset with the same format of the 
 
 ## 5. Reference
 
-Tong, H., Küken, A. & Nikoloski, Z. Integrating molecular markers into metabolic models improves genomic selection for Arabidopsis growth. (accepted by Nature Communications)
+Tong, H., Küken, A. & Nikoloski, Z. Integrating molecular markers into metabolic models improves genomic selection for Arabidopsis growth. Nature Communications 11, 2410 (2020).
 
 Please see the Methods section in this paper for the model details in mathematical equations. 
 Any further questions: tong@mpimp-golm.mpg.de
